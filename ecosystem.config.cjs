@@ -5,8 +5,8 @@ module.exports = {
 			script: "npm",
 			args: "start",
 			env: {
-				PORT: 3016,
-				NAME: "Grigoris"
+				"PORT": 3016,
+				"NAME": "Grigoris"
 			},
 		},
 	],
