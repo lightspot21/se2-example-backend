@@ -6,6 +6,7 @@ module.exports = {
 			args: "start",
 			env: {
 				PORT: 3016,
+				NAME: "Grigoris"
 			},
 		},
 	],
