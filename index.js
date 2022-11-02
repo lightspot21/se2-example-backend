@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 app.get('/', function(req, res){
     const { NAME } = process.env;
-    res.send(`Hello World! This is ${NAME}`);
+    res.send(`Hello JS! This is ${NAME}`);
 });
 
 app.post('/', function(req, res){
@@ -22,4 +22,4 @@ app.post('/', function(req, res){
     res.send(`Hello ${name}`);
 });
 
-app.listen(PORT || 3000);
+app.listen(PORT || 3016);
